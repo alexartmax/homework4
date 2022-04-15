@@ -9,7 +9,7 @@ public class Task2 {
 
         byte a = 4;
         short b = a;
-        int c = 400_000_345;
+        int c = b;
         long d = c;
 
         //int-double
@@ -21,8 +21,7 @@ public class Task2 {
 
         short ad = 543;
         float da = ad;
-        float t = 348;
-        double rt = t; //if double and float thus double
+        double rt = da;
 
         //char-int
 
@@ -30,7 +29,7 @@ public class Task2 {
         int vd = dv;
 
 
-        System.out.println(a + "\t" + b + "\t" + c + "\t" + ab + "\t" + ac + "\t" + "rt" + "\n" + "dv" + "\n" + "vd");
+        System.out.println(a + "\t" + b + "\t" + c + "\t" + ab + "\t" + ac + "\t" + rt + "\n" + dv + "\n" + vd);
 
     }
 }
